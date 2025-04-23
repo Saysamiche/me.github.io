@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.headdiv{
+    background-color: rgb(173, 24, 39);
+    width: 100%;
+    height: 7px;
+}
+header{
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+    background-color: white;
+}
+body{
+    height: 100vh;
+    background-image: url(background\ image.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.light{
+    font-weight: 98;
+}
+#img{
+    width: 100%;
+    height: 230px;
+    background-color: rgb(195, 223, 235);
+}
+#img h2{
+    padding-top: 80px;
+    padding-left: 63px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.img{
+    width: 60px;
+    cursor: pointer;
+    padding: 10px;
+}
+.super{
+    color: rgb(173, 24, 39);
+}
+.Ablack{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.black{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#main{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+    padding: 30px 0;
+}
+.img-guide{
+    width: 50%;
+    margin-left: 15px;
+}
+.download{
+    width: 43%;
+    font-size: 16px;
+    background-color: hwb(0 97% 3%);
+    padding: 15px 20px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.learn{
+    padding: 15px;
+    font-weight: 400;
+}
+.career{
+    padding-left: 80px;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.lerarn-text{
+    margin-left: 15px;
+}
+.text{
+    padding: 6px 2px;
+    width: 370px;
+    background-color: rgb(243, 240, 253);
+}
+button{
+    color: white;
+    background-color:  rgb(173, 24, 39);
+    padding: 10px 10px;
+    width: 100px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: rgb(6, 31, 6);
+    border-color: rgb(55, 55, 175);
+    cursor: pointer;
+    transition: ease-in-out;
+    zoom: 120%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(173, 24, 39);
+}
+.foot{
+    width: 75%;
+    height: 100px;
+    background-color: rgb(173, 24, 39);
+    padding: 20px 10px;
+}
+.foot a{
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: white;
+    padding-left: 70px;
+    vertical-align: top;
+}
+.foot p{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(173, 24, 39);
+    padding-left: 70px;
+}
+.map{
+    width: 15%;
+    background-color: rgb(173, 24, 39);
+    padding: 20px 10px;
+}
+.map a{
+    color: white;
+    vertical-align: top;
+    font-size: 12px;
+    background-color: rgb(173, 24, 39);
+    text-decoration: none;
+}
+.map a:hover{
+    text-decoration: underline;
+}
+.white{
+    background-color: white;
+    width: 100%;
+    height: 20px;
+}
+@media (max-width: 1100px) {
+    #main{
+        display: block;
+    }
+    #img h2{
+        width: 100%;
+        font-size: 32px;
+    }
+    .text{
+        padding: 6px 2px;
+        width: 310px;
+        background-color: rgb(243, 240, 253);
+    }
+    .download{
+        width: 95%;
+        margin: 15px auto; 
+    }
+    .black{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .career{
+        width: 95%;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    .foot{
+        width: 80%;
+        margin: 0 auto;
+        }
+    .foot a{
+        padding-left: 0;
+        font-weight: 400;
+    }
+    .foot p{
+        padding-left: 0;
+    }
+    .map{
+        width: 15%;
+        background-color: rgb(173, 24, 39);
+        padding: 20px 10px;
+    }
+    .map a{
+        color: white;
+        font-size: 12px;
+        background-color: rgb(173, 24, 39);
+        text-decoration: none;
+    }
+}
+@media (max-width: 376px) {
+    #main{
+        display: block;
+    }
+    #img h2{
+        width: 100%;
+        font-size: 32px;
+    }
+    .text{
+        padding: 6px 2px;
+        width: 310px;
+        background-color: rgb(243, 240, 253);
+    }
+    .download{
+        width: 95%;
+        margin: 15px auto; 
+    }
+    .black{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .career{
+        width: 95%;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    .foot{
+        width: 80%;
+        margin: 0 auto;
+        }
+    .foot a{
+        padding-left: 0;
+        font-weight: 400;
+    }
+    .foot p{
+        padding-left: 0;
+    }
+    .map{
+        width: 15%;
+        background-color: rgb(173, 24, 39);
+        padding: 20px 10px;
+    }
+    .map a{
+        color: white;
+        font-size: 12px;
+        background-color: rgb(173, 24, 39);
+        text-decoration: none;
+    }
+}
